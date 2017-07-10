@@ -1,0 +1,38 @@
+@import "colors";
+
+// General colors
+@syntax-text-color: darken(@white, 15%);
+@syntax-cursor-color: @pink;
+@syntax-selection-color: @dark-gray;
+@syntax-selection-flash-color: @light-gray;
+@syntax-background-color: @black;
+
+// Guide colors
+@syntax-wrap-guide-color: @guides;
+@syntax-indent-guide-color: @guides;
+@syntax-invisible-character-color: @invisible;
+
+// For find and replace markers
+@syntax-result-marker-color: @light-gray;
+@syntax-result-marker-color-selected: white;
+
+// Gutter colors
+@syntax-gutter-text-color: @gray;
+@syntax-gutter-text-color-selected: @blue;
+@syntax-gutter-background-color: @black-dark;
+@syntax-gutter-background-color-selected: @black;
+
+// For git diff info. i.e. in the gutter
+@syntax-color-renamed: @light-yellow;
+@syntax-color-added: @git-green;
+@syntax-color-modified: @yellow;
+@syntax-color-removed: @red;
+
+@comment: rgba(94, 99, 106, 0.95);// @dark-gray;
+@punctuation: darken(@syntax-text-color, 15%);
+
+@string: @green-highlight;
+@constant: @red;
+@numeric: @purple;
+
+@variable: @light-gray;
