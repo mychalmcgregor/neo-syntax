@@ -1,13 +1,13 @@
 {
   "name": "neo-syntax",
   "theme": "syntax",
-  "version": "0.0.0",
-  "description": "A short description of your syntax theme",
+  "version": "0.0.1",
+  "description": "A high contrast theme suitable for all brightness levels.",
   "keywords": [
     "syntax",
     "theme"
   ],
-  "repository": "https://github.com/atom/fademyke-syntax",
+  "repository": "https://github.com/mychalmcgregor/neo-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
