@@ -5,3 +5,4 @@
 * Replace deprecated code
 * Additional language sample-files and styling
 * Fix incorrect contribution/commit author
+* Put on atom.io
